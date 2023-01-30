@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+$palette: (
+    "Pure White": #ffffff,
+    "Cream (BG)": #f2eae2,
+    "Aurometal Saurus": #6c7289,
+    "Deep Aquamarine": #3d8168,
+    "Deep Aquamarine (Hover)": #1a4032,
+    "Gunmetal": #1c232b,
+);
+
+body {
+    display: grid;
+    height: 100vh;
+    background: map-get($palette, "Cream (BG)");
+}
+
+app-root {
+    margin: auto;
+    max-width: 343px;
+}
