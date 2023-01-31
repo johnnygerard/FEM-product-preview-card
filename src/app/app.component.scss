@@ -1,0 +1,81 @@
+@use "../styles.scss" as *;
+
+:host {
+  min-width: 260px;
+  max-width: 343px;
+  margin: auto;
+  background: map-get($palette, "Pure White");
+  border-radius: 10px;
+}
+
+.main {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.overline {
+  margin: 0 0 12px 0;
+  text-transform: uppercase;
+  @extend %overline;
+}
+
+.title {
+  margin: 0 0 16px 0;
+  color: map-get($palette, "Gunmetal");
+  @extend %display;
+}
+
+.body {
+  margin: 0 0 24px 0;
+  color: map-get($palette, "Aurometal Saurus");
+  @extend %body;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  margin: 0 0 20px 0;
+  gap: 19px;
+}
+
+.price {
+  color: map-get($palette, "Deep Aquamarine");
+  @extend %display;
+}
+
+.old-price {
+  color: map-get($palette, "Aurometal Saurus");
+  font: {
+    family: Montserrat;
+    size: 13px;
+    weight: 500;
+  }
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-decoration-line: line-through;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 15px 0 15px 0;
+  border-style: none;
+  border-radius: 8px;
+  color: map-get($palette, "Pure White");
+  background: map-get($palette, "Deep Aquamarine");
+  @extend %button-text;
+
+  &:hover {
+    background: map-get($palette, "Deep Aquamarine (Hover)");
+    cursor: pointer;
+  }
+}
