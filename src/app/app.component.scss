@@ -3,6 +3,8 @@
 :host {
   min-width: 260px;
   max-width: 343px;
+  display: flex;
+  flex-direction: column;
   margin: auto;
   background: map-get($palette, "Pure White");
   border-radius: 10px;
@@ -24,6 +26,7 @@
 .overline {
   margin: 0 0 12px 0;
   text-transform: uppercase;
+  color: map-get($palette, "Aurometal Saurus");
   @extend %overline;
 }
 
@@ -78,5 +81,38 @@
   &:hover {
     background: map-get($palette, "Deep Aquamarine (Hover)");
     cursor: pointer;
+  }
+}
+
+@media (min-width: 768px) {
+  :host {
+    max-width: none;
+    width: 600px;
+    flex-direction: row;
+  }
+
+  .img {
+    width: 300px;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .main {
+    padding: 32px;
+  }
+
+  .overline {
+    margin-bottom: 20px;
+  }
+
+  .title {
+    margin-bottom: 24px;
+  }
+
+  .body {
+    margin-bottom: 30px;
+  }
+
+  .prices {
+    margin-bottom: 30px;
   }
 }
