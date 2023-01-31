@@ -1,27 +1,23 @@
-# FEMProductPreviewCard
+# Frontend Mentor - Product preview card component solution
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).  
+Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
+## Tech Stack
+ - Angular
+ - SCSS
+## Developer Tools
+ - VS Code
+ - Figma
 
-## Development server
+## Links
+ - [Live version](https://fem-product-preview-card-jgerard.pages.dev/) hosted with [Cloudflare Pages](https://pages.cloudflare.com/)
+ - [Solution](https://www.frontendmentor.io/solutions/angular-with-scss-5SMXpNXt22)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Screenshots
+### Mobile
+![screenshot](./screenshot-mobile.png)
+### Desktop
+![screenshot](./screenshot-desktop.png)
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Copyright
+© 2023 Johnny Gérard
