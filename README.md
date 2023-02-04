@@ -1,6 +1,5 @@
-# Frontend Mentor - Product preview card component solution
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).  
-Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+# Frontend Mentor | Product preview card component
+This is my solution to the [Product preview card component challenge](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa) from [Frontend Mentor](https://www.frontendmentor.io/).
 
 ## Tech Stack
  - Angular
@@ -18,6 +17,9 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 ![screenshot](./screenshot-mobile.png)
 ### Desktop
 ![screenshot](./screenshot-desktop.png)
+
+## About Frontend Mentor
+[Frontend Mentor](https://www.frontendmentor.io/) challenges help you improve your coding skills by building realistic projects.
 
 ## Copyright
 © 2023 Johnny Gérard
